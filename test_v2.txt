@@ -1,0 +1,7 @@
+link  |  difficulty  |  task  |  features  |  special features  |  rules  |  description
+https://arcprize.org/play?task=1ae2feb7  |  hard  |  symbolic parsing  |  occlusion, order, spatial frequency, relative orientation, empty/full  |  ambiguity-inconsequential (Is the order of symbols within strings allocentric?)  |  symbols in strings define frequency of patterns, patterns are stacked by order of generation, empty symbol is ignored  |  copy; mono line (main line) divides space into 2 sides; non-empty side contains symbol strings; symbol strings are lines orthogonal to main line, spanning empty side, containing mono lines of len N representing symbols and empty; strings are read left to right, each symbol is associated with a 1D pattern paramterized by color of symbol and N; patterns are constructed from single squares of same color as symbol repeating along 1D separated by (len_string - (N - 1)) empty squares growing orthogonal out of main line into the empty side, along axis of corresponding string; later patterns override earlier ones  
+
+
+easy: Ansatz identified within ~10 sec
+medium: Ansatz identified within 1 min
+hard: Ansatz identified after > 1 min
