@@ -1,7 +1,47 @@
-link  |  difficulty  |  task  |  features  |  special features  |  rules  |  description
-https://arcprize.org/play?task=1ae2feb7  |  hard  |  symbolic parsing  |  occlusion, order, spatial frequency, relative orientation, empty/full  |  ambiguity-inconsequential (Is the order of symbols within strings allocentric?)  |  symbols in strings define frequency of patterns, patterns are stacked by order of generation, empty symbol is ignored  |  copy; mono line (main line) divides space into 2 sides; non-empty side contains symbol strings; symbol strings are lines orthogonal to main line, spanning empty side, containing mono lines of len N representing symbols and empty; strings are read left to right, each symbol is associated with a 1D pattern paramterized by color of symbol and N; patterns are constructed from single squares of same color as symbol repeating along 1D separated by (len_string - (N - 1)) empty squares growing orthogonal out of main line into the empty side, along axis of corresponding string; later patterns override earlier ones  
+link  |  difficulty  |  task  |  features  |  special features  |  invariants  |  rules  |  systematicity  |  productivity (extrapolation)  |  description
+https://arcprize.org/play?task=1ae2feb7  |  hard  |  string parsing  |  strings, occlusion, order, spatial frequency, relative orientation, empty/full  |  ambiguity-inconsequential (Is the order of symbols within strings allocentric?)  |  space size; side size; string length; pattern length; orientation; color of divide line  |  symbols in strings define color and frequency of patterns; patterns are stacked by order of generation; empty symbol is ignored  |  weak systematicity of symbols; no semantic constraints  |  length of string; length of pattern; number of strings and patterns  |  copy; mono line (divide line) divides space into 2 sides; non-empty side contains symbol strings; symbol strings are lines orthogonal to divide line, spanning empty side, containing mono lines of len N representing symbols and empty; strings are read left to right, each symbol is associated with a 1D pattern paramterized by color of symbol and N; patterns are constructed from single squares of same color as symbol repeating along 1D separated by (N - 1) empty squares growing orthogonal out of divide line into the empty side, along axis of corresponding string; later patterns override earlier ones  
+https://arcprize.org/play?task=3e6067c3  |  easy  |  string parsing  |  strings, shapes, spatial connectedness, size, relative orientation  |  ...  |  bg color; border color; square translation  |  strings define order in which the squares with different fill colors are connected; connection needs to be a vertical or horizontal line with width equal to fill side length; color of connection is determined by color of previous square fill  |  weak systematicity of colors  |  number of squares; length of connections; size of squares; size of border  |  copy; there's a bg color; a string made up of singular colored squares seperated by bg squares is depicted in the bottom of the space; the rest of the space is filled with squares with uniform border colors and different fills; border thickness and fill square size are each homogeneous for a sample; the string determines the order in which squares have to be connected with vertical or horizontal lines; lines have thickness equal to the side length of fill squares; connection lines connect fill squares without penetrating the border
+https://arcprize.org/play?task=16b78196  |  easy  |  puzzle (no rotation)  |
+https://arcprize.org/play?task=142ca369  |  easy  |  naive physics-rays  |
+https://arcprize.org/play?task=136b0064  |  easy  |  string parsing  |
+https://arcprize.org/play?task=0934a4d8  |  easy  |  pattern completion  |
+https://arcprize.org/play?task=135a2760  |  easy  |  pattern completion; denoising  |
+https://arcprize.org/play?task=13e47133  |  easy  |  string parsing  |
+https://arcprize.org/play?task=1818057f  |  easy  |  pattern matching  |
+https://arcprize.org/play?task=195c6913  |  easy  |  naive physics-rays; string parsing  |
+https://arcprize.org/play?task=195c6913  |  easy  |  puzzle (no rotation)  |
+https://arcprize.org/play?task=20a9e565  |  medium  |  series completion  |
+https://arcprize.org/play?task=21897d95  |  medium  |  naive physics-fluids; mechanics; symbolic instruction  |
+https://arcprize.org/play?task=221dfab4  |  easy  |  pattern completion  |
+https://arcprize.org/play?task=247ef758  |  medium  |  puzzle (no rotation)  |
+https://arcprize.org/play?task=269e22fb  |  medium  |  pattern completion; multi sample  |
+https://arcprize.org/play?task=271d71e2  |  medium  |  naive physics-rigid bodies; arithmetic  |
+https://arcprize.org/play?task=28a6681f  |  easy  |  naive physics-fluids,gravity  |
+https://arcprize.org/play?task=291dc1e1  |  medium  |  string parsing; symbolic instruction  |
+https://arcprize.org/play?task=2b83f449  |  medium  |  mechanics; naive physics-gravity  |
+https://arcprize.org/play?task=2ba387bc  |  easy  |  sorting  |
+https://arcprize.org/play?task=2c181942  |  easy  |  puzzle (with rotation)  |
+https://arcprize.org/play?task=2d0172a1  |  medium  |  naive topology  |
+https://arcprize.org/play?task=31f7f899  |  medium  |  partial sorting  |
+https://arcprize.org/play?task=332f06d7  |  easy  |  naive physics-rigid bodies  |
+https://arcprize.org/play?task=35ab12c3  |  medium  |  naive physics-rays  |
+https://arcprize.org/play?task=36a08778  |  easy  |  naive physics-fluids,gravity  |
+https://arcprize.org/play?task=38007db0  |  easy  |  arithmetic  |
+https://arcprize.org/play?task=3a25b0d8  |  easy  |  naive topology  |
+https://arcprize.org/play?task=3dc255db  |  medium  |  arithmetic; geometry  |
+https://arcprize.org/play?task=409aa875  |  medium  |  naive physics-rays; arithmetic  |
+https://arcprize.org/play?task=446ef5d2  |  easy  |  puzzle (no rotation)  |
+https://arcprize.org/play?task=45a5af55  |  easy  |  pattern completion  |
+https://arcprize.org/play?task=4a21e3da  |  medium  |  naive physics-rays; rigid bodies  |
+https://arcprize.org/play?task=4c3d4a41  |  medium  |  puzzle (no rotation); naive physics-fluids  |
+https://arcprize.org/play?task=4c416de3  |  easy  |  pattern completion  |
+https://arcprize.org/play?task=4c7dc4dd  |  medium  |  pattern completion |
+https://arcprize.org/play?task=4e34c42c  |  easy  |  puzzle (norotation)  |
+https://arcprize.org/play?task=53fb4810  |  easy  |  naive physics-rays  |
+https://arcprize.org/play?task=5545f144  |  hard  |  agent  |
+https://arcprize.org/play?task=581f7754  |  medium  |  puzzle  |
 
 
-easy: Ansatz identified within ~10 sec
-medium: Ansatz identified within 1 min
-hard: Ansatz identified after > 1 min
+easy: sufficient Ansatz identified within ~20 sec
+medium: sufficient Ansatz identified within 1 min
+hard: sufficient Ansatz identified after > 1 min
