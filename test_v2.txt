@@ -48,7 +48,18 @@ https://arcprize.org/play?task=62593bfd  |  medium  |  arithmetic; sorting  |
 https://arcprize.org/play?task=64efde09  |  easy  |  string parsing; naive physics-rays  |
 https://arcprize.org/play?task=65b59efc  |  hard  |  string parsing; puzzle (no rotation)  |
 https://arcprize.org/play?task=67e490f4  |  medium  |  puzzle; arithmetic  |
-https://arcprize.org/play?task=6e453dd6  |  easy  |  naive physics-rigied bodies; geomtry  |
+https://arcprize.org/play?task=6e453dd6  |  easy  |  naive physics-rigid bodies; geomtry  |
+https://arcprize.org/play?task=6e4f6532  |  easy  |  puzzle; naive physics-attractive forces  |
+https://arcprize.org/play?task=6ffbe589  |  hard  |  symbolic instruction  |
+https://arcprize.org/play?task=71e489b6  |  easy  |  pattern completion; denoising  |
+https://arcprize.org/play?task=7491f3cf  |  hard  |  symbolic instruction  |
+https://arcprize.org/play?task=7666fa5d  |  easy  |  geometry  |
+https://arcprize.org/play?task=78332cb0  |  easy  |  puzzle (no rotation) |
+https://arcprize.org/play?task=7b0280bc  |  medium  |  naive topology  |
+https://arcprize.org/play?task=7b3084d4  |  easy  |  puzzle  |
+https://arcprize.org/play?task=7b5033c1  |  easy  |  geometry  |
+https://arcprize.org/play?task=7b80bb43  |  easy  |  mechanics; denoising  |
+
 
 easy: sufficient Ansatz identified within ~20 sec
 medium: sufficient Ansatz identified within 1 min
