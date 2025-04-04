@@ -16,7 +16,7 @@ https://arcprize.org/play?task=221dfab4  |  easy  |  pattern completion  |
 https://arcprize.org/play?task=247ef758  |  medium  |  puzzle (no rotation)  |
 https://arcprize.org/play?task=269e22fb  |  medium  |  pattern completion; multi sample  |
 https://arcprize.org/play?task=271d71e2  |  medium  |  naive physics-rigid bodies; arithmetic  |
-https://arcprize.org/play?task=28a6681f  |  easy  |  naive physics-fluids,gravity  |
+https://arcprize.org/play?task=28a6681f  |  easy  |  naive physics-fluids  |
 https://arcprize.org/play?task=291dc1e1  |  medium  |  string parsing; symbolic instruction  |
 https://arcprize.org/play?task=2b83f449  |  medium  |  mechanics; naive physics-gravity  |
 https://arcprize.org/play?task=2ba387bc  |  easy  |  sorting  |
@@ -38,9 +38,17 @@ https://arcprize.org/play?task=4c416de3  |  easy  |  pattern completion  |
 https://arcprize.org/play?task=4c7dc4dd  |  medium  |  pattern completion |
 https://arcprize.org/play?task=4e34c42c  |  easy  |  puzzle (norotation)  |
 https://arcprize.org/play?task=53fb4810  |  easy  |  naive physics-rays  |
-https://arcprize.org/play?task=5545f144  |  hard  |  agent  |
+https://arcprize.org/play?task=5545f144  |  hard  |  mechanics; agent  |
 https://arcprize.org/play?task=581f7754  |  medium  |  puzzle  |
-
+https://arcprize.org/play?task=58490d8a  |  easy  |  sorting; naive topology  |
+https://arcprize.org/play?task=58f5dbd5  |  easy  |  sorting  |
+https://arcprize.org/play?task=5961cc34  |  easy  |  naive physics-rays; mechanics  |
+https://arcprize.org/play?task=5dbc8537  |  easy  |  puzzle (no rotation)  |
+https://arcprize.org/play?task=62593bfd  |  medium  |  arithmetic; sorting  |
+https://arcprize.org/play?task=64efde09  |  easy  |  string parsing; naive physics-rays  |
+https://arcprize.org/play?task=65b59efc  |  hard  |  string parsing; puzzle (no rotation)  |
+https://arcprize.org/play?task=67e490f4  |  medium  |  puzzle; arithmetic  |
+https://arcprize.org/play?task=6e453dd6  |  easy  |  naive physics-rigied bodies; geomtry  |
 
 easy: sufficient Ansatz identified within ~20 sec
 medium: sufficient Ansatz identified within 1 min
